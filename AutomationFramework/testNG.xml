@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Demo" parallel="tests" thread-count="5">
+  <test name="Write new post" preserve-order="true">
+    <classes>
+      <class name="org.testcases.LoginTestCaseWebApp">
+       
+      </class>
+    </classes>
+  </test>
+   <test name="Test2" preserve-order="true">
+    <classes>
+      <class name="org.testcases.LoginTestCaseWebApp">
+       
+      </class>
+    </classes>
+  </test>
+</suite>

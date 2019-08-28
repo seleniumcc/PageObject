@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Demo]" parallel="tests">
+  <test name="Write new post(failed)" parallel="tests">
+    <classes>
+      <class name="org.testcases.LoginTestCaseWebApp">
+        <methods>
+          <include name="initilizedpages"/>
+          <include name="loginAndroid"/>
+        </methods>
+      </class> <!-- org.testcases.LoginTestCaseWebApp -->
+    </classes>
+  </test> <!-- Write new post(failed) -->
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="org.testcases.LoginTestCaseWebApp">
+        <methods>
+          <include name="initilizedpages"/>
+          <include name="loginAndroid"/>
+        </methods>
+      </class> <!-- org.testcases.LoginTestCaseWebApp -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Automation Demo] -->
